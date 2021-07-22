@@ -1,0 +1,17 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "api proxy",
+  "main": "index.js",
+  "author": "Manuel Castro",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
